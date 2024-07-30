@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules
+.pnpm
+
+# Docker-specific files
+.dockerignore
+Dockerfile
+
+# Local environment files
+.env
+
+# Editor settings
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Config and build files
+tsconfig.json
+tsconfig.build.json
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS-specific files
+.DS_Store
+
+# Coverage and build directories
+coverage
+dist
+build
+
+# Temporary files
+tmp
+temp
+*.tmp
+*.temp
+
+# ESLint cache
+.eslintcache

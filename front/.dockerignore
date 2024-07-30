@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules
+.pnpm
+
+# Build output
+build
+dist
+
+# Docker-specific files
+.dockerignore
+Dockerfile
+
+# Local environment files
+.env
+
+# Editor settings
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Lint and config files
+.eslintrc.cjs
+tsconfig.json
+vite.config.ts
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS-specific files
+.DS_Store
